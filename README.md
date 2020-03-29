@@ -1,6 +1,7 @@
 # MRFDA
 
-An approximation of FDA using 
+A parallel version of Feature Decay Algorithms (FDA) using map-reduce technique.
+
 
 ## Configure
 
