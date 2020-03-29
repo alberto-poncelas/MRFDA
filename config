@@ -1,0 +1,4 @@
+lucenePath=/home/alberto/Archivos/Proyectos/DCU/scala/MRFDA/data/lucene_db/data
+langFrom=src 
+langTo= trg
+numSelectedData=100000
