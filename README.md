@@ -81,3 +81,21 @@ jar_list_notrim=$(ls -m $LUCENE_JARS/* | tr -d  ' ')
 jar_list=$(echo $jar_list_notrim | tr -d ' ')
 $SPARK_PATH/bin/spark-shell --jars $jar_list  --num-executors 4 --executor-cores 4 --executor-memory 50G --driver-memory 50G
 ```
+
+
+
+## Citation
+
+If you use this tool for academic research consider citing:
+
+```
+@article{poncelas2020improved,
+  title={Improved feature decay algorithms for statistical machine translation},
+  author={Poncelas, Alberto and de Buy Wenniger, Gideon Maillette and Way, Andy},
+  journal={Natural Language Engineering},
+  pages={1--21},
+  publisher={Cambridge University Press}
+}
+```
+
+
